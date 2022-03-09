@@ -1,0 +1,22 @@
+.head{
+    margin: 1rem auto;
+}
+.name,
+.head h2{
+    color: red;
+}
+.map{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.map .point{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5rem;
+    height: 1.5rem;
+    z-index: 1;
+    /* border: 1px solid black;  */
+    cursor: pointer;
+}

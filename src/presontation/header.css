@@ -1,0 +1,64 @@
+.dropdown{
+    font-weight: bold;
+    color: white;
+}
+.navbar{
+    height: 3rem;
+    background-color: black;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 7rem;
+    background-color: white;
+    
+}
+.col1{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+}
+.col1 > img{
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+.col2{
+    width: 60%;
+}
+.logo-title{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-weight: bold;
+    width: 12rem;
+    font-size: 1rem;
+    color: #3498db;
+}
+.thirdNav{
+    background-color: hsl(204, 70%, 53%);
+    color: white;
+    font-weight: bold;
+}
+#thirdNavItems{
+    margin-left: 16rem;
+    min-height: 45px;
+}
+#thirdNavItems > li > a{
+     color: white;
+}
+#thirdNavItems > li > a:hover{
+    border-bottom: 4px solid rgb(236, 236, 175);
+}
+.btnDiv{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50rem;
+}
+.controlBtn {
+    text-decoration: none;
+    display: block;
+    color: #fff;
+}
+.controlLi{
+    margin-left: 1rem;
+}
